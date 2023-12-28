@@ -1,2 +1,52 @@
-# ebook_ms-springboot
-Developing Microservices with Spring-Boot
+# Índice
+
+## Fundamentos Teóricos do REST
+1. [Apresentação da Seção Fundamentos Teóricos do REST](#apresentação-da-seção-fundamentos-teóricos-do-rest)
+2. [O que são Webservices](#o-que-são-webservices)
+3. [SOAP x REST](#soap-x-rest)
+4. [O que é REST - Verbos HTTP](#o-que-é-rest---verbos-http)
+5. [Os Verbos HTTP Menos Conhecidos - Utilização e Semelhanças](#os-verbos-http-menos-conhecidos---utilização-e-semelhanças)
+6. [Entendendo Request e Response em REST](#entendendo-request-e-response-em-rest)
+7. [Os Tipos de Parâmetros Usados no REST](#os-tipos-de-parâmetros-usados-no-rest)
+8. [HTTP Status Codes - Detalhamento e Utilização](#http-status-codes---detalhamento-e-utilização)
+9. [Níveis de Maturidade de Richardson - Evolução nos Princípios REST](#níveis-de-maturidade-de-richardson---evolução-nos-princípios-rest)
+10. [HATEOAS](#hateoas)
+11. [Conclusão da Seção - Fundamentos Teóricos do REST](#conclusão-da-seção---fundamentos-teóricos-do-rest)
+
+## Configuração do Ambiente Windows, Linux e Mac OSX
+1. [Configuração do Ambiente Windows](#configuração-do-ambiente-windows)
+2. [Instalando o Java 17](#instalando-o-java-17)
+3. [Instalando o Maven 3.9.5](#instalando-o-maven-395)
+4. [Instalando IntelliJ IDEA](#instalando-intellij-idea)
+5. [Instalando Spring Tools 4 (Spring Tool Suite)](#instalando-spring-tools-4-spring-tool-suite)
+6. [Instalando o GIT](#instalando-o-git)
+7. [Instalando o MySQL](#instalando-o-mysql)
+8. [Instalando o MySQL Workbench](#instalando-o-mysql-workbench)
+9. [Instalando o PostgreSQL](#instalando-o-postgresql)
+10. [Instalando o pgAdmin](#instalando-o-pgadmin)
+11. [Instalando o DBeaver](#instalando-o-dbeaver)
+12. [Instalando o Postman](#instalando-o-postman)
+13. [Instalando o Docker](#instalando-o-docker)
+14. [Instalando o Docker Compose](#instalando-o-docker-compose)
+15. [Criando um Projeto no Spring Initializr e Testando o Ambiente de DEV](#criando-um-projeto-no-spring-initializr-e-testando-o-ambiente-de-dev)
+16. [Conclusão da Seção - Configuração do Ambiente](#conclusão-da-seção---configuração-do-ambiente)
+
+## REST na Prática com Spring Boot
+1. [Apresentação da Seção - REST na Prática com Spring Boot](#apresentação-da-seção---rest-na-prática-com-spring-boot)
+2. [O que é o Spring Boot](#o-que-é-o-spring-boot)
+3. [Criando o Repositório do Projeto no Github](#criando-o-repositório-do-projeto-no-github)
+4. [Criando o Workspace do Projeto](#criando-o-workspace-do-projeto)
+5. [Entendendo o Gitignore](#entendendo-o-gitignore)
+6. [Enviando o Nosso Código Para o Github](#enviando-o-nosso-código-para-o-github)
+7. [Implementando o Controller @RestController, @RequestMapping e @PathVariable](#implementando-o-controller-restcontroller-requestmapping-e-pathvariable)
+8. [Definindo a Lógica](#definindo-a-lógica)
+9. [Os Métodos de Validação](#os-métodos-de-validação)
+10. [Executando o Projeto](#executando-o-projeto)
+11. [Tratando Exceções @ControllerAdvice, @ResponseStatus e @ExceptionHandler](#tratando-exceções-controlleradvice-responsestatus-e-exceptionhandler)
+12. [Implementando as Demais Operações](#implementando-as-demais-operações)
+13. [Criando e Injetando Serviços no Controller @Service e @Autowired](#criando-e-injetando-serviços-no-controller-service-e-autowired)
+14. [Retornando Listas de Objetos](#retornando-listas-de-objetos)
+15. [Os Verbos POST, PUT e DELETE](#os-verbos-post-put-e-delete)
+16. [Conclusão da Seção - REST na Prática com Spring Boot](#conclusão-da-seção---rest-na-prática-com-spring-boot)
+
+... (continuar com os demais tópicos)
